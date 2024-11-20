@@ -3,9 +3,14 @@ html, body {
 }
 
 body {
-    font-family: 'Monsterrcat', sans-serif;
+    font-family: cursive;
     background-color: #353636;
-    font-size: 18px;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: black -1px 13px 23px;
+    
+
+        
 
 }
 #app {
@@ -21,13 +26,14 @@ header {
     background: #1d415c;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: #fff;
-    padding: 1em 0;
-    margin-bottom: 2em;
+    padding: 16px;
+    margin-bottom: 22px;
 }
 
 .wrap {
     max-width: 800px;
     margin: 0 auto;
+    
 }
 img {
     width: 100%;
@@ -75,4 +81,16 @@ img:hover {
     
     padding: 2px;
     
+}
+
+hr {
+display: block;
+margin-block-start: 0.5em;
+margin-block-end: 0.5em;
+margin-inline-start: auto;
+margin-inline-end: auto;
+unicode-bidi: isolate;
+overflow: hidden;
+border-style: inset;
+border-width: 1px;
 }
