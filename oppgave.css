@@ -8,11 +8,8 @@ body {
     font-size: 50px;
     text-align: center;
     text-shadow: black -1px 13px 23px;
-    
-
-        
-
 }
+
 #app {
     background-color: #3d3e3f;
     display: flex;
@@ -33,14 +30,15 @@ header {
 .wrap {
     max-width: 800px;
     margin: 0 auto;
-    
 }
+
 img {
     width: 100%;
     height: 100%;
     opacity: 80%;
     border-radius: 4px;
 }
+
 img:hover {
     opacity: 100%;
 }
@@ -51,46 +49,38 @@ img:hover {
     border-radius: 4px;
     justify-self: center;
     align-self: center;
-
-
     height: 105px;
     width: 150px;
-
     text-align: center;
-
-    /* padding-top: 4em;
-    padding-bottom: 1em; */
-    margin: 50px;
+    margin: 10px;
 }
-.card:hover{
+
+.card:hover {
     background: white;
-    /* border: 4px solid rgb(255, 255, 255); */
 }
 
 #layout {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* background-color: rgb(55, 54, 54); */
     gap: 4px;
     padding: 2px;
-    
 }
 
 #hotbar {
-    display: grid;
-    grid-template-columns: repeat(9, 160px);
+    display: flex;  /* Changed to flex for horizontal layout */
+    justify-content: center;
+    align-items: center;
     padding: 2px;
-    
 }
 
 hr {
-display: block;
-margin-block-start: 0.5em;
-margin-block-end: 0.5em;
-margin-inline-start: auto;
-margin-inline-end: auto;
-unicode-bidi: isolate;
-overflow: hidden;
-border-style: inset;
-border-width: 1px;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
 }

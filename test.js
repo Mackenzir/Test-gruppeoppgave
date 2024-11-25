@@ -16,7 +16,7 @@ function updateView() {
             <div class="card" onclick="moveDiv(this)"><img src="https://medievalextreme.com/wp-content/uploads/2024/08/DSC_1656-Edit-2.jpeg"></div>
         </div>
                 <hr>
-            <div id="hotbar"></div>
+            <div id="hotbar">
                 <div class="card"></div>
                 <div class="card"></div>
                 <div class="card"></div>
@@ -26,7 +26,7 @@ function updateView() {
                 <div class="card"></div>
                 <div class="card"></div>
                 <div class="card"></div>
-        </div>
+            </div>
     </div>
     `;
 }
